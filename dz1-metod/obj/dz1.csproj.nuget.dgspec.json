@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\C-DZ-seminar1\\dz1\\dz1.csproj": {}
+    "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\seminar2\\dz1-metod\\dz1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\C-DZ-seminar1\\dz1\\dz1.csproj": {
+    "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\seminar2\\dz1-metod\\dz1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\C-DZ-seminar1\\dz1\\dz1.csproj",
+        "projectUniqueName": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\seminar2\\dz1-metod\\dz1.csproj",
         "projectName": "dz1",
-        "projectPath": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\C-DZ-seminar1\\dz1\\dz1.csproj",
+        "projectPath": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\seminar2\\dz1-metod\\dz1.csproj",
         "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\C-DZ-seminar1\\dz1\\obj\\",
+        "outputPath": "C:\\Users\\Алексей\\YandexDisk-yudin6608\\ПРОГРАММИРОВАНИЕ\\3. Знакомство с языками программирования\\Семинары\\seminar2\\dz1-metod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Алексей\\AppData\\Roaming\\NuGet\\NuGet.Config"

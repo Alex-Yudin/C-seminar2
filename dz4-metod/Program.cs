@@ -2,20 +2,18 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-System.Console.WriteLine("Введите число положительное число N");
-int Number = Convert.ToInt32(Console.ReadLine());
-int count = 1;
-System.Console.Write($"{Number} -> ");
-while (count < Number)
+int Prompt(string message)        // Создаем метод
 {
-    if (count % 2 == 0)
-    {
-        System.Console.Write($" {count} ");
-    }
-    else
-    {
-        System.Console.Write(" ");
-    }
+    System.Console.Write($"{message} > ");
+    return Convert.ToInt32(Console.ReadLine());
+}
 
-    count++;
+int number = Prompt("Введите число положительное число N");
+int count = 2;
+while (count <= number)
+{
+   
+    System.Console.Write($" {count} ");
+   
+    count+=2;
 }

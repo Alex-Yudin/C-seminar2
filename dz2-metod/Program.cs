@@ -3,26 +3,23 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-System.Console.WriteLine("Введите первое число");
-int number1 = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число");
-int number2 = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите третье число");
-int number3 = Convert.ToInt32(Console.ReadLine());
+int Prompt(string message)        // Создаем метод
+{
+    System.Console.Write($"{message} > ");
+    return Convert.ToInt32(Console.ReadLine());
+}
+int number1 = Prompt("Введите первое число");
+int number2 = Prompt("Введите второе число");
+int number3 = Prompt("Введите третье число");
+
 int maxNumber = number1;
-if(number1 > number2)
+if(maxNumber < number2)
 {
-    maxNumber = number1;
+    maxNumber = number2;
 }
-else
-{
-    if(number2 > number3)
+if(maxNumber < number3)
     {
-        maxNumber = number2;
+    maxNumber = number3;
+   
     }
-    else
-    {
-        maxNumber = number3;
-    }
-}
 System.Console.WriteLine($"max= {maxNumber}");

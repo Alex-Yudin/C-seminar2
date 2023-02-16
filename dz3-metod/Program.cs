@@ -3,8 +3,14 @@
 // -3 -> нет
 // 7 -> нет
 
-System.Console.Write("Введите число для проверки его четности > ");
-double userNumber = Convert.ToInt32(Console.ReadLine());
+int Prompt(string message)        // Создаем метод
+{
+    System.Console.Write($"{message} > ");
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+int userNumber = Prompt("Введите число для проверки его четности > ");
+
 if (userNumber % 2 == 0) 
 {
     System.Console.Write($"{userNumber} -> четное число");
