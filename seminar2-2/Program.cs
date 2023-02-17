@@ -3,3 +3,12 @@
 12-> 2 
 85 -> 8 */
 
+int number = new Random().Next(10, 100);
+int number1 = number % 10;
+int number2 = number / 10 % 10;
+int maxNumber = number2;
+if (number1 > number2)
+{
+    maxNumber = number1;
+}
+System.Console.WriteLine($"{number} -> {maxNumber}");
